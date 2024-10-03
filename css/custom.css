@@ -1,3 +1,101 @@
 body{ 
     background-color: antiquewhite;
 } 
+.c-image {  
+    height: 45rem;
+    background-position: center; 
+    object-fit: cover; 
+    background-size: cover;
+}
+.header {
+    border-color: black;
+} 
+p{ 
+color: rgb(87, 29, 29);
+font-style: italic; 
+text-align: left; 
+margin: 4;
+
+} 
+
+a:hover{
+    color: rgb(87, 29, 29); 
+    font-style: italic;
+
+} 
+
+h1{
+font-family: "mr-eaves-xl-modern", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Tahoma", sans-serif;
+font-style:italic;
+} 
+
+.nav-link{
+    color: rgb(87, 29, 29); 
+    
+} 
+.nav-link{
+    color: rgb(87, 29, 29);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .nav-link::before,
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: all 0.5s;
+  }
+  
+  .nav-link::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .nav-link::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  .nav-link:hover::before {
+    width: 100%;
+    transition: width 0.25s ease-in-out;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    transition: width 0.25s ease-in-out 0.25s;
+  }
+  
+
+  .form-control {
+    border: 3px solid #26351f;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(87, 29, 29);
+    border-right-color: rgb(87, 29, 29);
+    border-bottom-color: rgb(87, 29, 29);
+    border-left-color: rgb(87, 29, 29);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+h3{ 
+    color: rgb(87, 29, 29); 
+    font-style: italic;
+}
+
