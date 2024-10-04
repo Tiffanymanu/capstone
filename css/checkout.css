@@ -5,7 +5,8 @@
 
 body{
     font-style: italic;
-} 
+}  
+.logo{object-fit: scale-down;}
 
 .form-control {
     border: 3px solid #381015;
@@ -26,4 +27,4 @@ body{
     border-image-width: initial;
     border-image-outset: initial;
     border-image-repeat: initial;
-}
+} 
